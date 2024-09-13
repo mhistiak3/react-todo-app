@@ -53,10 +53,14 @@ const Todo = ({ todo }) => {
             className="text-blue-500 cursor-pointer"
           />
         ) : (
-          <FaEdit
-            onClick={() => setIsEditable(true)}
-            className="text-blue-500 cursor-pointer"
-          />
+          <button disabled={todo.completed}>
+            <FaEdit
+              onClick={() => setIsEditable(true)}
+              className={`${
+                todo.completed ? "text-blue-300 " : "text-blue-500 "
+              }cursor-pointer`}
+            />
+          </button>
         )}
 
         <FaTrashAlt
@@ -69,3 +73,13 @@ const Todo = ({ todo }) => {
 };
 
 export default Todo;
+
+// Learn React Redux
+// Learn Context API
+// Learn react router
+// Learn Hooks
+// BG Changer Project
+// Learn Props in react
+// Virtual DOM, Fiber, Reconciliation
+// Learn JSX
+// Lern React Flow and Structure
