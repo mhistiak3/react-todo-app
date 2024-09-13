@@ -74,12 +74,12 @@ const Todo = ({ todo }) => {
 
 export default Todo;
 
-// Learn React Redux
-// Learn Context API
-// Learn react router
-// Learn Hooks
-// BG Changer Project
-// Learn Props in react
-// Virtual DOM, Fiber, Reconciliation
-// Learn JSX
-// Lern React Flow and Structure
+// 
+// 
+// 
+//
+// 
+// 
+// 
+// 
+// 

@@ -61,7 +61,7 @@ const TodoUI = () => {
       value={{ todos, addTodo, updateTodo, deleteTodo, toggleComplete }}
     >
       <div className="flex flex-col items-center p-20 min-h-screen bg-gradient-to-br from-purple-700 via-purple-500 to-purple-300">
-        <div className="w-full max-w-md bg-white shadow-lg rounded-lg p-6">
+        <div className="md:w-full md:max-w-md bg-white shadow-lg rounded-lg p-6">
           <h1 className="text-2xl font-semibold text-center text-purple-800 mb-6">
             Todo List
           </h1>
